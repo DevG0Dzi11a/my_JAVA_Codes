@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.MainFXMLController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1100.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/31189.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="408.0" layoutY="186.0" prefHeight="314.0" prefWidth="298.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#playAction" prefHeight="70.0" prefWidth="300.0" text="Play">
+               <font>
+                  <Font name="Blade Singer Bold" size="32.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.8295454545454546" endY="0.8134469696969697" startX="0.09848485164570087" startY="0.2348484414996523">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.336612312418764">
+                           <color>
+                              <Color red="0.047413792461156845" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.6667552877230295">
+                           <color>
+                              <Color red="0.10000000149011612" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <SepiaTone />
+               </effect>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#createAction" prefHeight="70.0" prefWidth="300.0" text="Create">
+               <font>
+                  <Font name="Blade Singer Bold" size="32.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.8295454545454546" endY="0.8134469696969697" startX="0.09848485164570087" startY="0.2348484414996523">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.336612312418764">
+                           <color>
+                              <Color red="0.047413792461156845" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.6667552877230295">
+                           <color>
+                              <Color red="0.10000000149011612" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <SepiaTone />
+               </effect>
+            </Button>
+            <Button layoutX="10.0" layoutY="66.0" mnemonicParsing="false" onAction="#exitAction" prefHeight="70.0" prefWidth="298.0" text="EXIT">
+               <font>
+                  <Font name="Blade Singer Bold" size="32.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.8295454545454546" endY="0.8134469696969697" startX="0.09848485164570087" startY="0.2348484414996523">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.336612312418764">
+                           <color>
+                              <Color red="0.047413792461156845" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.6667552877230295">
+                           <color>
+                              <Color red="0.10000000149011612" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <SepiaTone />
+               </effect>
+            </Button>
+         </children>
+      </VBox>
+      <Label layoutX="230.0" layoutY="56.0" prefHeight="94.0" prefWidth="665.0" text="FLASHCARD">
+         <font>
+            <Font name="Blade Singer 3D" size="95.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.9734848480332982" endY="1.0" startX="0.9772727128231165" startY="0.4659091342579235">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9833333492279053" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.9833333492279053" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.6315431879948009">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.8111485288904642">
+                     <color>
+                        <Color red="0.8333333134651184" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9166666865348816" green="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>
